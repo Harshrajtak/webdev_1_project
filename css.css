@@ -1,0 +1,132 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background: url('/image/image.jpg');
+    /* height: 5045px; */
+
+}
+
+.left img {
+    width: 94px;
+    height: 80px;
+    border-image: auto;
+    position: block;
+
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 10px;
+
+}
+
+.left div {
+    font-size: 25px;
+    font-style: italic;
+    margin: 0px -20px;
+    color: rgb(240, 175, 33);
+
+
+}
+
+.mid {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    /* border: 2px solid yellow; */
+    width: 661px;
+    display: block;
+    margin: 10px auto;
+    color: black;
+}
+
+.right {
+    /* border: 2px solid green; */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 10px;
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+
+
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 15px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(240, 175, 33);
+
+}
+
+.btn {
+    border: 2px solid whitesmoke;
+    background-color: rgb(240, 175, 33);
+    font-size: 15px;
+    font-style: italic;
+    border-radius: 15px;
+    margin: 16px;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(243, 195, 91);
+    text-decoration: underline;
+}
+
+.con {
+    border: 2px solid rgb(240, 175, 33);
+    margin: 92px;
+    padding: 51px;
+    width: 375px;
+    border-radius: 10px;
+    /* background-color: rgb(248, 207, 118); */
+}
+
+form .forms input {
+    color:white;
+    background-color: rgb(240, 175, 33);
+    margin: 5px;
+    padding: 10px;
+    width: 302px;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid white;
+
+}
+
+.con h2 {
+    color: white;
+    margin: 11px 51px;
+}
+
+.con div button {
+ display: block;
+    margin: 2px 126px;
+    width: 23%;
+
+}
