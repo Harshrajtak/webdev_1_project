@@ -3,7 +3,7 @@ body {
     margin: 0px;
     padding: 0px;
     background-repeat: no-repeat;
-    background: url('/image/image.jpg');
+    background: url('./image/image.jpg');
     /* height: 5045px; */
 
 }
